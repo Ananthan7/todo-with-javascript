@@ -1,7 +1,7 @@
 let addTodo = document.getElementById('addTodo');
 let todoContainer = document.getElementById('todoContainer');
 let inputField = document.getElementById('inputField');
-
+// function to add todos
 addTodo.addEventListener('click', function(){
     var paragraph = document.createElement('p');
     paragraph.classList.add('paragraph-styling');
